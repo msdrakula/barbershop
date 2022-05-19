@@ -1,15 +1,13 @@
 <!doctype html>
 <html lang="ru">
 	<head>
-	<meta charset="utf-8">
-	<title>Барбершоп "Бородинский"</title>
-		
-		
-		
+		<meta charset="utf-8">
+		<title>Барбершоп "Бородинский"</title>
 	</head>
 
 	<body>
-		
+<!-- ----------------------HEADER--------------------------- -->
+
 		<header class="page-header">
 			<nav class="navigation">
 				
@@ -24,12 +22,11 @@
 					<li class="navigation-item"><a href="" class="navigation-link"><span href="" class="visually-hedden">Карзина</span></a></li>
 					<li class="navigation-item"><a href="" class="navigation-link"><span href="" class="visually-hedden">Вход</span></a></li>
 				</ul>
-			
 			</nav>
-
-
 		</header>
 		
+<!-- ----------------------MAIN--------------------------- -->
+
 		<main class="main-index">
 			<h1 class="visually-hedden">Барбершоп "Бородинский"</h1>
 			<img class="logo" src="#" alt="Логотип Барбершоп 'Бородинский'">
@@ -53,6 +50,8 @@
 				</ul>
 			</section>
 			
+
+
 			<section class="services">
 				<h2 class="services-title">Популярные услуги</h2>
 				<ul>
@@ -124,8 +123,10 @@
 			<section class="contacts">
 				<h2 class="contacts-title">Контакты</h2>
 				<h3 class="contacts-subtitle">Барбершоп "Бородинский"</h3>
-				<p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-				<a class="contacts-phone" href="tel:88005558628">+7 800 555-86-28</a>
+				<address class="contacts-address">
+					<p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+					<a class="contacts-phone" href="tel:88005558628">+7 800 555-86-28</a>
+				</address>
 				<h3 class="contacts-subtitle">Время работы"</h3>
 				<ul>
 					<li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
@@ -162,25 +163,60 @@
 						<input type="text" id="appointment-name" name="appointment-name" placeholder="Пупкин Лев">
 					</p>
 
-					
-
-
-
-
 					<button class="button" type="submit">Записаться</button>
 
 				</form>
-
 			</section>
-
-
-		
 		</main>
 
+<!-- ----------------------FOOTER--------------------------- -->
 
+		<footer class="page-footer">
+			<section class="footer-contacts">
+				<h2 class="visually-hidden">Контакты</h2>
+				<img class="footer-contacts-logo" src="#" alt="Логотив Барбершоп Бородинский">
+				<address class="footer-contacts-address">
+					<p class="abount-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+					<a class="footer-contacts-address-phone" href="tel:88005558628">+7 800 555-86-28</a>
+				</address>
+			</section>
 
-		<footer>
+			<section class="newsletter">
+				<h2 class="page-footer-title">Получайте лучшие предложения</h2>
+				<form class="newsletter-form" action="" method="post">
+					<label for="newsletter-email">Email</label>
+					<input class="field" placeholder="ivanovaa@gmail.com" type="email" name="newsletter-email" id="newsletter-email" required>
+					<button class="button newsletter-button" type="submit">
+						<span class="visually-hidden">Оправить</span>
+					</button>
+				</form>
+			</section>
 
+			<section class="footer-social">
+				<h2 class="page-footer-title">Давайте дружить</h2>
+				<ul class="footer-social-list">
+
+					<li class="footer-social-item">
+						<a class="button" href="#">
+							<span class="visually-hidden">Твиттер</span>
+						</a>
+					</li>
+
+					<li class="footer-social-item">
+						<a class="button" href="#">
+							<span class="visually-hidden">Вконтакте</span>
+						</a>
+					</li>
+
+					<li class="footer-social-item">
+						<a class="button" href="#">
+							<span class="visually-hidden">Инстаграм</span>
+						</a>
+					</li>
+				</ul>
+
+				<p class="abound-text">Сделано в <a class="htmlacademy-link" href="#">.html academy</a></p>
+			</section>
 
 		</footer>
 		
